@@ -3,7 +3,10 @@ using Authorization.IdentityServer;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddIdentityServer()
+builder.Services.AddIdentityServer(options =>
+{
+    options.UserInteraction.LoginUrl = "/Auth/Login";
+})
     .AddInMemoryApiResources(Configuration.GetApiResources())
     .AddInMemoryClients(Configuration.GetClients())
     .AddInMemoryIdentityResources(Configuration.GetIdentityResources())

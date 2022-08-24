@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Users.Api", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.IdentityServer", "..\Authorization.IdentityServer\Authorization.IdentityServer.csproj", "{2F8EA86A-E343-4997-92B2-026032973B95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Client.Mvc", "..\Authorization.Client.Mvc\Authorization.Client.Mvc.csproj", "{2A389C2C-4ACB-44D6-98DC-4A798FC98CDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2F8EA86A-E343-4997-92B2-026032973B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F8EA86A-E343-4997-92B2-026032973B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F8EA86A-E343-4997-92B2-026032973B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A389C2C-4ACB-44D6-98DC-4A798FC98CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A389C2C-4ACB-44D6-98DC-4A798FC98CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A389C2C-4ACB-44D6-98DC-4A798FC98CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A389C2C-4ACB-44D6-98DC-4A798FC98CDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
